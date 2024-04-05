@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <center>
+        <h2>connecting static files images into our html page using jinja operational tag</h2>
+        <h1><img src ="{% static 'images/nature.jpeg' %}"height="300px" width="250px" alt="image not found"></h1>
+        <h1><img src ="{% static 'images/travel.jpeg' %}"height="300px" width="250px" alt="image not found"></h1>
+            
+        <h1><img src ="{% static 'images/work.jpeg' %}"height="300px" width="250px" alt="image not found"></h1>
+    </center>
+    
+</body>
+</html>
